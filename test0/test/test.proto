@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package test;
+
+option go_package = "github.com/PizzaWhisperer/test0/test";
+
+service Test {
+  rpc FTest(TestRequest) returns (TestReply);
+  rpc FTest2(TestRequest) returns (TestReply);
+}
+
+message TestRequest {
+  string name = 1;
+}
+
+message TestReply {
+  string message = 1;
+}
