@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	pb "github.com/PizzaWhisperer/test0/test"
+	pb "github.com/PizzaWhisperer/drand/test0/test"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

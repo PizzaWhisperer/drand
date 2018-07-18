@@ -24,9 +24,9 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/PizzaWhisperer/test0/test"
+	pb "github.com/PizzaWhisperer/drand/test0/test"
 	"golang.org/x/net/context"
-	grpc "google.golang.org/grpc"
+	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
 

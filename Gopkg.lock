@@ -20,6 +20,26 @@
   version = "v1.1.0"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/dedis/drand"
+  packages = [
+    "beacon",
+    "core",
+    "dkg",
+    "ecies",
+    "fs",
+    "key",
+    "net",
+    "protobuf/crypto",
+    "protobuf/crypto/share",
+    "protobuf/crypto/share/vss",
+    "protobuf/dkg",
+    "protobuf/drand",
+    "test"
+  ]
+  revision = "39585f2d3053667b3d3c64038b41f750c8dafd98"
+
+[[projects]]
   name = "github.com/dedis/fixbuf"
   packages = ["."]
   revision = "290118f838f79dd2f76edf7a98cccf989eaf3310"
@@ -201,6 +221,8 @@
     "metadata",
     "naming",
     "peer",
+    "reflection",
+    "reflection/grpc_reflection_v1alpha",
     "resolver",
     "resolver/dns",
     "resolver/passthrough",
@@ -215,6 +237,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "c56e809993a1ff7fd4a1198e216295f6891507d355dfc19fb2f81271a50cb06f"
+  inputs-digest = "2a2008dbf72cff97077bf56d1ab2fb63b3a0fc3ecc94b17bfed99ca1e0bf4091"
   solver-name = "gps-cdcl"
   solver-version = 1
